@@ -1,0 +1,12 @@
+!!! 警告 !!!
+
+存在未解决的依赖项，请手动添加它们 !, 完成添加后，请删除该文件，避免再次弹出提示。
+
+项目位置：'d:\RoboMaster\SoftWare\New_CubeMXCode\OMNI_KEIL\c2cppMX\cppLedTest\MDK-ARM\MDK-ARM.code-workspace'
+
+---
+
+FileName: 'Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s'
+	Class:     'Device'
+	Category:  'source'
+	Location:  'RTE/Device/STM32F407IGHx/startup_stm32f407xx.s'
