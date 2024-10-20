@@ -14,5 +14,5 @@ class led {
 };
 
 // int m;
-
+using namespace std;
 #endif // !__LED_H
