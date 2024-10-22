@@ -4,6 +4,11 @@
             "path": "."
         }
     ],
-    "settings": {},
+    "settings": {
+        "files.associations": {
+            "*.h": "cpp",
+            "iostream": "cpp"
+        }
+    },
     "extensions": {}
 }

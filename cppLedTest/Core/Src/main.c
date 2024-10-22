@@ -91,7 +91,7 @@ int main(void)
   MX_TIM2_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-  led led1(1);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -99,10 +99,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+    ledControl();
     /* USER CODE BEGIN 3 */
-	  led1.control(2);
-	  HAL_Delay(500);
+
   }
   /* USER CODE END 3 */
 }

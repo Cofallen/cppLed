@@ -1,9 +1,21 @@
 #include "main.h"
 #include "led.h"
 #include "gpio.h"
-#include "iostream"
+// #include "iostream"
 
 using namespace std;
+
+class led {
+private:
+    /* data */
+public:
+    led(uint8_t status);
+
+    ~led();
+
+    uint8_t control(uint8_t status);
+};
+
 
 led::led(uint8_t status)
 {
@@ -44,4 +56,11 @@ uint8_t led::control(uint8_t status)
         break;
     }
     return 0;
+}
+
+void ledControl()
+{
+    led led1(1);
+    led1.control(2);
+    HAL_Delay(500);
 }
