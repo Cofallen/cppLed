@@ -1,0 +1,19 @@
+"D:\Linux\CLion\Path\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_TOOLCHAIN_FILE=C:\Users\17273\.vcpkg-clion\vcpkg (1)\scripts\buildsystems\vcpkg.cmake" -DX_VCPKG_APPLOCAL_DEPS_SERIALIZED:BOOL=OFF -S D:\RoboMaster\SoftWare\New_CubeMXCode\OMNI_KEIL\c2cppMX\cppLedClion -B D:\RoboMaster\SoftWare\New_CubeMXCode\OMNI_KEIL\c2cppMX\cppLedClion\build
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+CMake Error at D:/Linux/CLion/Path/CLion 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:154 (message):
+  Could not find toolchain file: C:\Users\17273\.vcpkg-clion\vcpkg
+  (1)\scripts\buildsystems\vcpkg.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:17 (project)
+
+
+CMake Error: CMake was unable to find a build program corresponding to "MinGW Makefiles".  CMAKE_MAKE_PROGRAM is not set.  You probably need to select a different build tool.
+-- Configuring incomplete, errors occurred!

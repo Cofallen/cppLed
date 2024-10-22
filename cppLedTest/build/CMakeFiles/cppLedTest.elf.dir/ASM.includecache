@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/RoboMaster/SoftWare/New_CubeMXCode/OMNI_KEIL/c2cppMX/cppLedTest/Core/Startup/startup_stm32f407ighx.s
+
